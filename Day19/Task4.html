@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <style>
+
+            #maindiv{
+               margin: 300px; 
+            }
+
+            #div_blue{
+                /* position: relative; */
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                animation-name: example;
+                border-radius: 50px;
+                background-color: blue;
+                animation-duration: 300ms;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+            }
+
+            #div_red{
+                /* position: relative; */
+                display: inline-block;
+                margin-left: 10px;
+                width: 50px;
+                height: 50px;
+                animation-name: example;
+                border-radius: 50px;
+                background-color:red;
+                animation-duration: 500ms;
+                /* animation-delay: 30ms; */
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+            }
+
+            #div_yellow{
+                /* position: relative; */
+                display: inline-block;
+                margin-left: 10px;
+                width: 50px;
+                height: 50px;
+                animation-name: example;
+                border-radius: 50px;
+                background-color: yellow;
+                animation-duration: 400ms;
+                /* animation-delay: 60ms; */
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+            }
+
+            #div_green{
+                /* position: relative; */
+                display: inline-block;
+                margin-left: 10px;
+                width: 50px;
+                height: 50px;
+                animation-name: example;
+                border-radius: 50px;
+                background-color:green;
+                animation-duration:450ms;
+                /* animation-delay: 100ms; */
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+            }
+
+            @keyframes  example{
+                0%  {transform: translateY(0px);}
+                25% {transform: translateY(25px);}
+                50% {transform: translateY(50px);}
+                75% {transform: translateY(75px);}
+                100% {transform: translateY(100px);}
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="maindiv">
+            <div id="div_blue"></div>
+            <div id="div_red"></div>
+            <div id="div_yellow"></div>
+            <div id="div_green"></div>
+        </div>
+    </body>
+</html>

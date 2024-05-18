@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <style>
+            #reflection{
+                vertical-align: top;
+                display: inline-block;
+                width: 300px;
+                height: 400px;
+                /* background-color: aqua; */
+            }
+
+            #img_below{
+                -webkit-box-reflect: below;
+                width: 100px;
+                height: 100px;
+                offset: 50px;
+            }
+
+            #img_above{
+                -webkit-box-reflect: above;
+                margin-top: 100px;
+                width: 100px;
+                height: 100px;
+                offset: 50px;
+            } 
+
+            #img_right{
+                
+                -webkit-box-reflect: right;
+                width: 100px;
+                height: 100px;
+                offset: 50px;
+            }
+
+            #img_left{
+                -webkit-box-reflect: left;
+                margin-left: 200px;
+                width: 100px;
+                height: 100px;
+                offset: 50px;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <div id="reflection">
+            <img id="img_below" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq1iiXOgrohUto-L1JZDVSo6YrgWFSGV0PPQTJAYxX1tU4eDVM_bJIHT9lcXhx-1WD2ag&usqp=CAU">
+        </div>
+
+        <div id="reflection">
+            <img id="img_above" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq1iiXOgrohUto-L1JZDVSo6YrgWFSGV0PPQTJAYxX1tU4eDVM_bJIHT9lcXhx-1WD2ag&usqp=CAU">
+        </div>     
+
+        <div id="reflection">        
+            <img id="img_right" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq1iiXOgrohUto-L1JZDVSo6YrgWFSGV0PPQTJAYxX1tU4eDVM_bJIHT9lcXhx-1WD2ag&usqp=CAU">
+        </div>
+
+        <div id="reflection">
+            <img id="img_left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq1iiXOgrohUto-L1JZDVSo6YrgWFSGV0PPQTJAYxX1tU4eDVM_bJIHT9lcXhx-1WD2ag&usqp=CAU">
+        </div>
+        </body>
+</html>
